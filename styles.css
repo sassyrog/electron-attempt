@@ -1,3 +1,15 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+
+.draggable {
+   -webkit-user-select: none;
+   user-select: none;
+   -webkit-app-region: drag;
+}
+
+.no-drag {
+   -webkit-user-select:unset;
+   user-select: unset;
+   -webkit-app-region: none;
+}
